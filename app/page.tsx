@@ -25,15 +25,15 @@ export default function Page() {
           <p className="section-label">The Approach</p>
           <div className="approach-grid">
             <p>
-              We work in the middle market, with companies and firms that carry real
-              complexity without the scale to hire a team against it. Consultants consult,
-              and off-the-shelf software doesn&apos;t know the business well enough. We
-              advise and then build what the advice actually requires.
+              We work in the middle market, with companies and real estate firms that carry
+              real complexity without the scale to hire a team against it. We advise, then
+              build and implement what the advice actually requires.
             </p>
             <p>
-              We start with real estate domain expertise. Often the answer also involves
-              building something, a solution to the problem in front of us that scales past
-              it and becomes a framework the business can use again.
+              We pair institutional real estate investing and operating judgment with deep
+              systems engineering. That&apos;s how we find where the problem actually sits.
+              It&apos;s also why the work carries through the decision and into the systems
+              your team runs on every day.
             </p>
           </div>
         </div>
@@ -43,38 +43,38 @@ export default function Page() {
         <div className="container">
           <p className="section-label">How We Execute</p>
           <h2 className="section-title">Advice, technology, and capital, connected.</h2>
-          <div className="execute-grid">
-            <div className="execute-card">
+          <ol className="flow">
+            <li className="flow-step">
+              <span className="flow-mark" aria-hidden="true"><b>{"/"}</b></span>
               <h3>Advise</h3>
               <p>
-                Strategic partnership for companies, investors, and platforms navigating
-                real estate complexity, and working out what technology changes about how
-                they operate. Outsourced CIO and head of real estate roles, board support,
-                capital markets strategy and execution, and hands-on technology
-                implementation for firms that know they need to move and aren&apos;t sure
-                where to start.
+                Strategic partnership for companies and real estate firms navigating
+                complexity. Outsourced CIO and head of real estate roles, board support,
+                capital markets strategy and execution, and hands-on technology implementation
+                for firms that know they need to move and aren&apos;t sure where to start.
               </p>
-            </div>
-            <div className="execute-card">
+            </li>
+            <li className="flow-step">
+              <span className="flow-mark" aria-hidden="true">{"/"}<b>{"/"}</b></span>
               <h3>Build</h3>
               <p>
-                Build is a continuation of the advisory work. Every firm operates
-                differently, so we build around how a business actually works: purpose-built
-                tools paired with 20+ years of domain experience that cuts through noise and
-                positions you for what&apos;s ahead.
+                Build is a continuation of the advisory work, so everything we build is
+                engineered for that firm and grounded in 20+ years of real estate experience.
+                It evolves as the business does. We&apos;re there to help navigate complexity
+                across the life of the firm.
               </p>
-            </div>
-            <div className="execute-card">
+            </li>
+            <li className="flow-step">
+              <span className="flow-mark" aria-hidden="true">{"//"}<b>{"/"}</b></span>
               <h3>Invest</h3>
               <p>
-                Our focus is where real estate and technology intersect, in companies and
-                products building for this industry, where our own operating experience
-                makes us a useful partner. We also invest alongside operators and investors
-                when a capital structure needs a creative answer, and only when the
-                alignment is real.
+                Our focus is where real estate and technology intersect, especially where
+                power, energy or technology drives the value of an asset or a business. We
+                invest alongside the people and platforms we work with, where our own
+                operating experience makes us a useful partner.
               </p>
-            </div>
-          </div>
+            </li>
+          </ol>
         </div>
       </section>
 
@@ -93,31 +93,24 @@ export default function Page() {
           </p>
           <div className="audience-grid">
             <div className="audience-card">
-              <h3>Companies with Real Estate Exposure</h3>
+              <h3>Companies That Use Real Estate</h3>
               <p>
-                Your company has real estate complexity and needs a senior partner who
-                combines institutional investment experience with purpose-built solutions,
-                and can operate across capital, strategy, and execution without adding
-                overhead.
+                Multi-site companies whose locations drive the business, often 20 to 150 of
+                them, from logistics and 3PL to retail and restaurants. We act as your
+                outsourced head of real estate: portfolio strategy, renewals, negotiation and
+                site selection, without adding headcount. Behind it sits a single source of
+                record. Every lease, site and capital decision lives in one place, with real
+                estate intelligence your CEO, CFO and board can rely on.
               </p>
             </div>
             <div className="audience-card">
-              <h3>Owners &amp; Operators</h3>
+              <h3>Real Estate Investors &amp; Operators</h3>
               <p>
-                You&apos;re executing business plans and navigating a market that demands
-                more creativity and efficiency than ever. Whether the challenge is capital,
-                strategy, or operational efficiency, we can help resolve what&apos;s behind
-                and position for what&apos;s ahead.
-              </p>
-            </div>
-            <div className="audience-card">
-              <h3>Investors &amp; Capital Partners</h3>
-              <p>
-                You&apos;re making allocation decisions in a market where information and
-                execution create alpha. We work alongside you on strategy, underwriting and
-                execution, and we co-invest where our own capital belongs next to yours.
-                Institutional discipline, market intelligence, and the credibility to sit
-                across from your board and your partners.
+                Funds, operators, family offices and LP investors. Our sweet spot is firms
+                with 5 to 20 deal principals. We advise on capital and strategy and put
+                technology to work connecting the dots across a firm&apos;s markets,
+                relationships and deals, so the intelligence that drives your business
+                compounds instead of sitting in a few people&apos;s inboxes.
               </p>
             </div>
           </div>
@@ -128,8 +121,10 @@ export default function Page() {
         <div className="container">
           <p className="section-label">Principals</p>
           <p className="principals-lede">
-            Marine Street brings the investment judgment to set direction and the
-            engineering expertise to put strategy into practice.
+            The largest real estate firms have whole teams building the systems and
+            information behind every decision. Most mid-market companies and firms
+            don&apos;t, and Marine Street is here to give them that same access, with
+            senior judgment behind it.
           </p>
           <div className="principals-grid">
             <div>
