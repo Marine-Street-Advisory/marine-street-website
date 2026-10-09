@@ -21,12 +21,12 @@ const archivo = Archivo({
 });
 
 const DESCRIPTION =
-  "Marine Street solves complexity for companies that touch real estate. Advisory, technology, and capital for owners, operators, investors and companies with real estate exposure.";
+  "Marine Street solves complexity for companies that touch real estate. Advisory, technology, and capital for companies that use real estate and for real estate investors and operators.";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://marine-street.com"),
   title: {
-    default: "Marine Street — Advise. Build. Invest.",
+    default: "Marine Street | Advise · Build · Invest",
     template: "%s | Marine Street",
   },
   description: DESCRIPTION,
@@ -35,13 +35,13 @@ export const metadata: Metadata = {
     type: "website",
     url: "https://marine-street.com",
     siteName: "Marine Street",
-    title: "Marine Street — Advise. Build. Invest.",
+    title: "Marine Street | Advise · Build · Invest",
     description: DESCRIPTION,
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Marine Street — Advise. Build. Invest.",
+    title: "Marine Street | Advise · Build · Invest",
     description: DESCRIPTION,
   },
   robots: {
