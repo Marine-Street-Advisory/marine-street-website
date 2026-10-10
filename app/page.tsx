@@ -121,10 +121,9 @@ export default function Page() {
         <div className="container">
           <p className="section-label">Principals</p>
           <p className="principals-lede">
-            The largest real estate firms have whole teams building the systems and
-            information behind every decision. Most mid-market companies and firms
-            don&apos;t, and Marine Street is here to give them that same access, with
-            senior judgment behind it.
+            Every real estate decision now comes with a technology decision.
+            <br />
+            We bring senior judgment to both.
           </p>
           <div className="principals-grid">
             <div>
