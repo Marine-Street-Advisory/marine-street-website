@@ -134,7 +134,7 @@ export default function Page() {
                   <h3>Jeremy Griffin</h3>
                   <p className="principal-role">CEO</p>
                   <p className="principal-link">
-                    <a href="https://www.linkedin.com/in/jeremy-griffin-a01b491/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/jeremyrgriffin/" target="_blank" rel="noopener noreferrer">
                       LinkedIn &#8599;
                     </a>
                   </p>
