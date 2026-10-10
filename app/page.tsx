@@ -68,10 +68,10 @@ export default function Page() {
               <span className="flow-mark" aria-hidden="true">{"//"}<b>{"/"}</b></span>
               <h3>Invest</h3>
               <p>
-                Our focus is where real estate and technology intersect, especially where
-                power, energy or technology drives the value of an asset or a business. We
-                invest alongside the people and platforms we work with, where our own
-                operating experience makes us a useful partner.
+                The intersection of real estate and technology that we and our clients live in
+                every day, from assets where power and energy drive the value to companies
+                building for real estate. We invest alongside the people and platforms we work
+                with.
               </p>
             </li>
           </ol>
@@ -106,11 +106,11 @@ export default function Page() {
             <div className="audience-card">
               <h3>Real Estate Investors &amp; Operators</h3>
               <p>
-                Funds, operators, family offices and LP investors. Our sweet spot is firms
-                with 5 to 20 deal principals. We advise on capital and strategy and put
-                technology to work connecting the dots across a firm&apos;s markets,
-                relationships and deals, so the intelligence that drives your business
-                compounds instead of sitting in a few people&apos;s inboxes.
+                LP investors, operators and family offices, with particular focus on firms
+                with 5 to 20 deal principals. We work across the firm, from technology strategy
+                and implementation to relationship and market intelligence, deal flow and
+                diligence, so the context behind every relationship and deal compounds inside
+                the firm.
               </p>
             </div>
           </div>
@@ -207,7 +207,12 @@ export default function Page() {
 
       <footer>
         <div className="footer-inner">
-          <p>&copy; 2026 Marine Street</p>
+          <p>
+            &copy; 2026 Marine Street &nbsp;·&nbsp;{" "}
+            <a href="https://www.linkedin.com/company/marinestreet/" target="_blank" rel="noopener noreferrer">
+              LinkedIn &#8599;
+            </a>
+          </p>
           <p>Not an offer to sell or the solicitation of an offer to buy securities.</p>
         </div>
       </footer>
