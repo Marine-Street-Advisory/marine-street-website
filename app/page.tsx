@@ -58,10 +58,10 @@ export default function Page() {
               <span className="flow-mark" aria-hidden="true">{"/"}<b>{"/"}</b></span>
               <h3>Build</h3>
               <p>
-                Build is a continuation of the advisory work, so everything we build is
-                engineered for that firm and grounded in 20+ years of real estate experience.
-                It evolves as the business does. We&apos;re there to help navigate complexity
-                across the life of the firm.
+                Build is a continuation of the advisory work: our own products, plus solutions
+                engineered for each client, all grounded in 20+ years of real estate experience.
+                It evolves as the business does, and we&apos;re there to help navigate
+                complexity across the life of the firm.
               </p>
             </li>
             <li className="flow-step">
