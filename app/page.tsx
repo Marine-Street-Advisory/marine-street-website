@@ -13,29 +13,10 @@ export default function Page() {
             Marine Street solves complexity for companies that touch real estate.
           </h1>
           <p className="hero-sub settle settle-3">
-            Real estate strategy, technology, and capital, for companies that carry
-            real complexity without the team to handle it.
+            We provide outsourced real estate leadership and hands-on engineering for midsize
+            companies, working alongside the people who know the business.
           </p>
           <a href="#contact" className="hero-cta settle settle-4">Let&apos;s Connect</a>
-        </div>
-      </section>
-
-      <section className="approach" id="approach">
-        <div className="container">
-          <p className="section-label">The Approach</p>
-          <div className="approach-grid">
-            <p>
-              We work in the middle market, with companies and real estate firms that carry
-              real complexity without the scale to hire a team against it. We advise, then
-              build and implement what the advice actually requires.
-            </p>
-            <p>
-              We pair institutional real estate investing and operating judgment with deep
-              systems engineering. That&apos;s how we find where the problem actually sits.
-              It&apos;s also why the work carries through the decision and into the systems
-              your team runs on every day.
-            </p>
-          </div>
         </div>
       </section>
 
@@ -49,7 +30,7 @@ export default function Page() {
               <h3>Advise</h3>
               <p>
                 Strategic partnership for companies and real estate firms navigating
-                complexity. Outsourced CIO and head of real estate roles, board support,
+                complexity. Outsourced chief investment officer and head of real estate roles, board support,
                 capital markets strategy and execution, and hands-on technology implementation
                 for firms that know they need to move and aren&apos;t sure where to start.
               </p>
@@ -80,17 +61,7 @@ export default function Page() {
 
       <section className="audience" id="audience">
         <div className="container">
-          <p className="section-label">Who It&apos;s For</p>
-          <h2 className="section-title">
-            Built for principals who need a different kind of partner.
-          </h2>
-          <p className="audience-intro">
-            We act as outsourced leadership and build the systems that help a business scale
-            and run more efficiently. Platform growth, leadership transition, technology
-            modernization, recapitalization: the work arrives in different forms, for
-            owners, operators, investors, lenders, advisors and brokers across the real
-            estate ecosystem.
-          </p>
+          <h2 className="section-title">Who It&apos;s For</h2>
           <div className="audience-grid">
             <div className="audience-card">
               <h3>Companies That Use Real Estate</h3>
@@ -114,6 +85,22 @@ export default function Page() {
               </p>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="view" id="view" aria-labelledby="view-heading">
+        <div className="container view-grid">
+          <div className="view-intro">
+            <p className="section-label">Technology and adoption</p>
+            <h2 className="section-title" id="view-heading">A View from Our Seat</h2>
+          </div>
+          <ol className="view-points">
+            <li><span className="view-number" aria-hidden="true">01</span><p>Extend the team’s judgment and help it improve</p></li>
+            <li><span className="view-number" aria-hidden="true">02</span><p>Give people more time for decisions and relationships</p></li>
+            <li><span className="view-number" aria-hidden="true">03</span><p>Turn what the team creates into knowledge the firm can use</p></li>
+            <li><span className="view-number" aria-hidden="true">04</span><p>Keep control as the tools change</p></li>
+            <li><span className="view-number" aria-hidden="true">05</span><p>Start with one part of the business</p></li>
+          </ol>
         </div>
       </section>
 
