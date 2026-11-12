@@ -1,3 +1,18 @@
+@font-face {
+  font-family: "Newsreader";
+  src: url("/fonts/newsreader-latin.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 300 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Archivo";
+  src: url("/fonts/archivo-latin.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400 600;
+  font-display: swap;
+}
+
 :root {
   --navy: #1a2a3a;
   --ink: #222d3a;
@@ -9,8 +24,8 @@
   --white: #ffffff;
   --accent: #3d6b8e;
   --warm: #c9a96e;
-  --font-display: var(--font-display-src), Georgia, serif;
-  --font-body: var(--font-body-src), -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-display: "Newsreader", Georgia, serif;
+  --font-body: "Archivo", -apple-system, BlinkMacSystemFont, sans-serif;
   --space-xs: 0.5rem;
   --space-sm: 1rem;
   --space-md: 2rem;

@@ -1,24 +1,6 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
-import { Newsreader, Archivo } from "next/font/google";
 import "./globals.css";
-
-const newsreader = Newsreader({
-  subsets: ["latin"],
-  weight: ["300", "400", "500"],
-  variable: "--font-display-src",
-  display: "swap",
-  fallback: ["Georgia", "serif"],
-  adjustFontFallback: false,
-});
-
-const archivo = Archivo({
-  subsets: ["latin"],
-  weight: ["400", "500", "600"],
-  variable: "--font-body-src",
-  display: "swap",
-  fallback: ["-apple-system", "BlinkMacSystemFont", "sans-serif"],
-});
 
 const DESCRIPTION =
   "Marine Street solves complexity for companies that touch real estate. Advisory, technology, and capital for companies that use real estate and for real estate investors and operators.";
@@ -55,7 +37,11 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: ReactNode }>) {
   return (
-    <html lang="en" className={`${newsreader.variable} ${archivo.variable}`}>
+    <html lang="en">
+      <head>
+        <link rel="preload" href="/fonts/newsreader-latin.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+        <link rel="preload" href="/fonts/archivo-latin.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+      </head>
       <body>{children}</body>
     </html>
   );
