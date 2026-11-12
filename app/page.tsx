@@ -117,6 +117,22 @@ export default function Page() {
         </div>
       </section>
 
+      <section className="view" id="view" aria-labelledby="view-heading">
+        <div className="container view-grid">
+          <div className="view-intro">
+            <p className="section-label">Technology and adoption</p>
+            <h2 className="section-title" id="view-heading">A View from Our Seat</h2>
+          </div>
+          <ol className="view-points">
+              <li><span className="view-number" aria-hidden="true">01</span><p>Technology should extend the team’s judgment and help it improve</p></li>
+              <li><span className="view-number" aria-hidden="true">02</span><p>Give people more time for judgment and relationships</p></li>
+              <li><span className="view-number" aria-hidden="true">03</span><p>What the team creates should become knowledge the firm can use</p></li>
+              <li><span className="view-number" aria-hidden="true">04</span><p>Keep control as the tools change</p></li>
+              <li><span className="view-number" aria-hidden="true">05</span><p>Start with one part of the business</p></li>
+          </ol>
+        </div>
+      </section>
+
       <section className="principals" id="principals">
         <div className="container">
           <p className="section-label">Principals</p>

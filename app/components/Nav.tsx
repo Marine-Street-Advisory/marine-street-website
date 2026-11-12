@@ -6,6 +6,7 @@ const LINKS = [
   { href: "#approach", label: "Approach" },
   { href: "#execute", label: "How We Execute" },
   { href: "#audience", label: "Who It's For" },
+  { href: "#view", label: "Our View" },
   { href: "#principals", label: "Principals" },
 ];
 
